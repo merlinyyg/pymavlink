@@ -71,6 +71,7 @@ mavlink_message_lengths_dict = OrderedDict([
 (                           'ATT_POS_MOCAP' ,  44), # ID#138 Motion capture attitude and position
 (                                'ALTITUDE' ,  40), # ID#141 The current system altitude.
 (                                 'VV7_CAN' ,  40), # ID#145 vv7 vehicle speed.
+(                           'OPOUT_OBJDATA' ,  80), # ID#145 openpilot obj data.
 (                        'SCALED_PRESSURE3' ,  22), # ID#143 Barometer readings for 3rd barometer
 (                           'FOLLOW_TARGET' , 101), # ID#144 current motion information from a designated system
 (                    'CONTROL_SYSTEM_STATE' , 108), # ID#146 The smoothed, monotonic system state used to feed the control loops of the system.
